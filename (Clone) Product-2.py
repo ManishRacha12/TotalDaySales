@@ -20,3 +20,11 @@ df.write.format("delta").mode("overwrite").saveAsTable("products")
 
 # MAGIC %sql
 # MAGIC select * from customer
+
+# COMMAND ----------
+
+# MAGIC %sh apt-get update && apt-get install -y git
+
+# COMMAND ----------
+
+
